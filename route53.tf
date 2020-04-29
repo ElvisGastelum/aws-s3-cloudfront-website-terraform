@@ -1,5 +1,5 @@
 data "aws_route53_zone" "website_route_zone" {
-  name = var.website_bucket_zone
+  name = var.website_zone
 }
 
 resource "aws_route53_record" "website_route_record" {
